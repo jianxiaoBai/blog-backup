@@ -6,6 +6,10 @@ categories: [快捷操作]
 comments: false
 ---
 
+![](https://ws3.sinaimg.cn/large/006tNbRwly1fvwm4j345og30sg0k40w3.gif)
+
+<!-- more -->
+
 ## 文件操作
 
 - `p` 在当前位置 **之后** 粘贴
@@ -13,8 +17,6 @@ comments: false
 - `yy` 拷贝当前行，相当于 ddP
 - `x` 删除当前光标所在的字符
 - `dd` 剪贴当前行
-
-<!-- more -->
 
 ## 插入模式
 
@@ -29,7 +31,9 @@ comments: false
 - `g_` 到本尾
 - `0` 到行头
 - `$` 到行末
-- `w` b 词移动
+- `w b` 词移动
+- `gg` 文件开头
+- `G` 文件结尾
 - `h/j/k/l` 左/下/上/右
 
 ## 撤销/重做
