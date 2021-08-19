@@ -96,11 +96,12 @@ theme: next
 
 deploy:
   type: sftp
-  host: 118.24.53.207
-  user: root
-  remotePath: /root/www/myblog
+  # host: 118.24.53.207
+  host: 192.168.2.106
+  user: pi
+  remotePath: /var/www/myblog
   port: 22
   privateKey: /Users/baixiaojian/.ssh/id_rsa
-  # pass: 
+  # pass:
   # passphrase: [passphrase]
   # agent: $SSH_AUTH_SOCK
