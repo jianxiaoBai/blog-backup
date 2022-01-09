@@ -86,22 +86,22 @@ pagination_dir: page
 theme: next
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   branch: master
-#   repo:
-#     github: git@github.com:jianxiaoBai/jianxiaoBai.github.io.git
+# Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  branch: master
+  repo:
+    github: git@github.com:jianxiaoBai/jianxiaoBai.github.io.git
     # coding: git@git.coding.net:jianxiaoBai/jianxiaoBai.git
 
-deploy:
-  type: sftp
-  # host: 118.24.53.207
-  host: 192.168.2.106
-  user: pi
-  remotePath: /var/www/myblog
-  port: 22
-  privateKey: /Users/baixiaojian/.ssh/id_rsa
+# deploy:
+#   type: sftp
+#   # host: 118.24.53.207
+#   host: 192.168.2.106
+#   user: pi
+#   remotePath: /var/www/myblog
+#   port: 22
+#   privateKey: /Users/baixiaojian/.ssh/id_rsa
   # pass:
   # passphrase: [passphrase]
   # agent: $SSH_AUTH_SOCK
